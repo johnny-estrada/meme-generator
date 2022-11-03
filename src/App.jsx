@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Form from './components/Form'
 import './App.css'
 
 function App() {
 
   return (
-    <div>
+    <div className='App'>
       <Navbar />
+      <Form />
     </div>
   )
 }
