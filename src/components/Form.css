@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input-container {
+    padding: 36px 36px 15px;
+}
+
+.form__input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    width: 230px;
+    height: 35px;
+    margin: 0 7.5px 0 7.5px;
+    padding: 10px;
+}
+
+.form__button {
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 477px;
+    height: 40px;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    color: #fff;
+    background: #A626D3;
+}
