@@ -27,11 +27,17 @@
     color: #fff;
     width: 477px;
     height: 40px;
-    margin-bottom: 36px;
     cursor: pointer;
 }
 
 .form__button:hover {
     color: #fff;
     background: #A626D3;
+}
+
+.form__img {
+    padding: 36px;
+    max-width: 80%;
+    border-radius: 2px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
